@@ -16,18 +16,35 @@ Datasets Citation:
 }
 
 ## HW3 Project 1 ― VAE
-A variational autoencoder (VAE) is a type of neural network that learns to reproduce its 
-input, and also map data to latent space. it is worth noting that a VAE model can generate 
-samples by sampling from the latent space.
+A variational autoencoder (VAE) is a type of neural network that learns to reproduce its input, and also map data to latent space. it is worth noting that a VAE model can generate samples by sampling from the latent space.
 
 In this project, done list:
 - Implement a VAE model and train it on a face dataset. 
 - Compare the original images and reconstructed images from VAE model.(calculate KL divergence and mean square error) 
 - Randomly generate 32 images by sampling latent vectors from an normal distribution.
+- Visualize the latent space by mapping the latent vectors of the test images to 2D space (by tSNE) and color 
+them with respect to an attribute (e.g., gender and hair color). 
 
 ## HW3 Project 2 ― GAN
+A generative adversarial network (GAN) is a deep learning method in which two neural networks (generator and discriminator) compete with each other to become 
+more accurate in their predictions.
+
+In this project, done list:
+- Build and train a Generator and a Discriminator in GAN model.
+- Samples 32 noise vectors from normal distribution and input them into a Generator to generate 32 images.
 
 ## HW3 Project 3 ― UDA
+In this project, done list:
+- Implement DANN on digits datasets (USPS, MNIST-M and SVHN) and consider the following 3 scenarios: 
+	
+	(Source domain → Target domain)
+	
+	1. USPS → MNIST-M
+
+	2. MNIST-M → SVHN
+
+	3. SVHN → USPS
+- 
 
 
 # Usage

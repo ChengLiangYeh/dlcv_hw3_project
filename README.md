@@ -1,11 +1,34 @@
-# HW3 ― VAE, GAN and UDA
-In this assignment, you are given datasets of human face and digit images. You will need to implement the models of both VAE and GAN for generating human face images, and the model of DANN for classifying digit images from different domains.
+# Deep Learning for Computer Vision HW3
+## Introduction
+In HW3, we will use CelebA datasets of human face and digit images to implement the models of both VAE and GAN for generating human face images, and the model of DANN for classifying digit images from different domains.
 
 <p align="center">
   <img width="853" height="500" src="http://mmlab.ie.cuhk.edu.hk/projects/CelebA/intro.png">
 </p>
 
-For more details, please click [this link](https://drive.google.com/drive/folders/1H__FunUK3O-x-6ZDgCmhhXREVKA9deK8?usp=sharing) to view the slides of HW3. **Note that all of hw3 videos and introduction pdf files can be accessed in your NTU COOL.**
+Datasets Citation:
+@inproceedings{liu2015faceattributes,
+  title = {Deep Learning Face Attributes in the Wild},
+  author = {Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou},
+  booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
+  month = {December},
+  year = {2015} 
+}
+
+## HW3 Project 1 ― VAE
+A variational autoencoder (VAE) is a type of neural network that learns to reproduce its 
+input, and also map data to latent space. it is worth noting that a VAE model can generate 
+samples by sampling from the latent space.
+
+In this project, done list:
+- Implement a VAE model and train it on a face dataset. 
+- Compare the original images and reconstructed images from VAE model.(calculate KL divergence and mean square error) 
+- 
+
+## HW3 Project 2 ― GAN
+
+## HW3 Project 3 ― UDA
+
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.

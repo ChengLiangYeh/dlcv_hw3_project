@@ -33,7 +33,7 @@ In this project, done list:
 - Build and train a Generator and a Discriminator in GAN model.
 - Samples 32 noise vectors from normal distribution and input them into a Generator to generate 32 images.
 
-## HW3 Project 3 ― UDA
+## HW3 Project 3 ― DANN
 In this project, done list:
 - Implement DANN on digits datasets (USPS, MNIST-M and SVHN) and consider the following 3 scenarios: 
 	
@@ -44,8 +44,14 @@ In this project, done list:
 	2. MNIST-M → SVHN
 
 	3. SVHN → USPS
-- 
+- Compute the accuracy on target domain, while the model is trained on source domain only. (lower bound)
+- Compute the accuracy on target domain, while the model is trained on source and target domain. (domain adaptation)
+- Compute the accuracy on target domain, while the model is trained on target domain only. (upper bound)
+- Visualize the latent space by mapping the testing images to 2D space (with t-SNE) and use different colors to indicate data of (a) different digit classes 
+0-9 and (b) different domains.
 
+## HW3 Project 4 ― Improved UDA model
+Implement improved model on digits datasets(USPS, MNIST-M and SVHN) for unsupervised domain adaptation.
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.

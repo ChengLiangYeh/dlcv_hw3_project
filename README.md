@@ -23,7 +23,7 @@ samples by sampling from the latent space.
 In this project, done list:
 - Implement a VAE model and train it on a face dataset. 
 - Compare the original images and reconstructed images from VAE model.(calculate KL divergence and mean square error) 
-- 
+- Randomly generate 32 images by sampling latent vectors from an normal distribution.
 
 ## HW3 Project 2 ― GAN
 

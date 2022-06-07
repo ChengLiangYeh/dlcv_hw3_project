@@ -88,6 +88,9 @@ Email: chengliang.yeh@gmail.com
 - VAE(variational autoencoder)
 ![1](./pic/VAE.png)
 
+- GAN(generative adversarial network)
+![1](./pic/GAN.png)
+
 ## Evaluation
 To evaluate your UDA models in Problems 3 and 4, you can run the evaluation script provided in the starter code by using the following command.
 

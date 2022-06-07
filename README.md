@@ -85,7 +85,8 @@ Contact me for Dataset or [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.
 Email: chengliang.yeh@gmail.com
 
 ## Models
-
+- VAE(variational autoencoder)
+![1](./pic/VAE.png)
 
 ## Evaluation
 To evaluate your UDA models in Problems 3 and 4, you can run the evaluation script provided in the starter code by using the following command.

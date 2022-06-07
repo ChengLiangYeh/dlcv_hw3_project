@@ -131,6 +131,15 @@ Note that for `hw3_eval.py` to work, your predicted `.csv` files should have the
 | ...        | ...   |
 
 
+## Packages
+- This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
+
+- You can run the following command to install all the packages listed in the requirements.txt:
+
+	pip3 install -r requirements.txt
+
+- Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above.
+
 ## Others
  1.   `hw3_p1.sh`  
 The shell script file for running your VAE model.
@@ -154,15 +163,6 @@ The shell script file for running your improved UDA model.
 -   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/mnistm/test_pred.csv`).
 
 6.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me.
-
-### Packages
-This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.
-
-You can run the following command to install all the packages listed in the requirements.txt:
-
-    pip3 install -r requirements.txt
-
-Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above. E-mail or ask the TAs first if you want to import other packages.
 
 ### Remarks
 - If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://goo.gl/XvCaLR).

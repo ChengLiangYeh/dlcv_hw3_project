@@ -113,13 +113,8 @@ Reference:
 
 [Unsupervised Pixel-Level Domain Adaptation with Generative Adversarial Networks](https://arxiv.org/abs/1612.05424)
 
-
-
-
-
-
 ## Evaluation
-To evaluate your UDA models in Problems 3 and 4, you can run the evaluation script provided in the starter code by using the following command.
+To evaluate your UDA models, run the evaluation script by using the following command.
 
     python3 hw3_eval.py $1 $2
 
@@ -135,48 +130,30 @@ Note that for `hw3_eval.py` to work, your predicted `.csv` files should have the
 | 00002.png  | 5     |
 | ...        | ...   |
 
-# Submission Rules
-### Deadline
-109/12/01 (Tue.) 02:00 AM (GMT+8)
 
-### Late Submission Policy
-You have a three-day delay quota for the whole semester. Once you have exceeded your quota, the credit of any late submission will be deducted by 30% each day.
-
-Note that while it is possible to continue your work in this repository after the deadline, **we will by default grade your last commit before the deadline** specified above. If you wish to use your quota or submit an earlier version of your repository, please contact the TAs and let them know which commit to grade.
-
-### Academic Honesty
--   Taking any unfair advantages over other class members (or letting anyone do so) is strictly prohibited. Violating university policy would result in an **F** grade for this course (**NOT** negotiable).    
--   If you refer to some parts of the public code, you are required to specify the references in your report (e.g. URL to GitHub repositories).      
--   You are encouraged to discuss homework assignments with your fellow class members, but you must complete the assignment by yourself. TAs will compare the similarity of everyone’s submission. Any form of cheating or plagiarism will not be tolerated and will also result in an **F** grade for students with such misconduct.
-
-### Submission Format
-Aside from your own Python scripts and model files, you should make sure that your submission includes *at least* the following files in the root directory of this repository:
- 1.   `hw3_<StudentID>.pdf`  
-The report of your homework assignment. Refer to the "*Grading*" section in the slides for what you should include in the report. Note that you should replace `<StudentID>` with your student ID, **NOT** your GitHub username.
- 2.   `hw3_p1.sh`  
-The shell script file for running your VAE model. This script takes as input a path and should output your generated image in problem 1-4 in the given path.
- 3.   `hw3_p2.sh`  
-The shell script file for running your GAN model. This script takes as input a path and should output your generated image in problem 2-2 in the given path.
- 4.   `hw3_p3.sh`  
-The shell script file for running your DANN model. This script takes as input a folder containing testing images and a string indicating the target domain, and should output the predicted results in a `.csv` file.
- 5.   `hw3_p4.sh`  
-The shell script file for running your improved UDA model. This script takes as input a folder containing testing images and a string indicating the target domain, and should output the predicted results in a `.csv` file.
-
-We will run your code in the following manner:
+## Others
+ 1.   `hw3_p1.sh`  
+The shell script file for running your VAE model.
+ 2.   `hw3_p2.sh`  
+The shell script file for running your GAN model.
+ 3.   `hw3_p3.sh`  
+The shell script file for running your DANN model.
+ 4.   `hw3_p4.sh`  
+The shell script file for running your improved UDA model.
+ 5.   Run code in the following manner:
 
     bash ./hw3_p1.sh $1
     bash ./hw3_p2.sh $1
     bash ./hw3_p3.sh $2 $3 $4
     bash ./hw3_p4.sh $2 $3 $4
 
--   `$1` is the path to your output generated images (Problem 1-4 and 2-2) (e.g. hw3/VAE/fig1_4.png or hw3/GAN/fig2_2.png ).
+-   `$1` is the path to your output generated images (e.g. hw3/VAE/fig1_4.png or hw3/GAN/fig2_2.png ).
 -   `$2` is the directory of testing images in the **target** domain (e.g. `hw3_data/digits/mnistm/test`).
 -   `$3` is a string that indicates the name of the target domain, which will be either `mnistm`, `usps` or `svhn`. 
 	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `mnistm`, you should make your prediction using your "USPS→MNIST-M" model, **NOT** your "MNIST-M→SVHN" model.
 -   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/mnistm/test_pred.csv`).
 
-> 🆕 ***NOTE***  
-> For the sake of conformity, please use the `python3` command to call your `.py` files in all your shell scripts. Do not use `python` or other aliases, otherwise your commands may fail in our autograding scripts.
+6.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me.
 
 ### Packages
 This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.

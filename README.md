@@ -53,22 +53,41 @@ In this project, done list:
 ## HW3 Project 4 ― Improved UDA model
 Implement improved model on digits datasets(USPS, MNIST-M and SVHN) for unsupervised domain adaptation.
 
-# Usage
-To start working on this assignment, you should clone this repository into your local machine by using the following command.
+## Dataset
+### A subset of human face dataset: 
 
-    git clone https://github.com/DLCV-Fall-2020/hw3-<username>.git
-Note that you should replace `<username>` with your own GitHub username.
+- size = 64 * 64 * 3
 
-### Dataset
-In the starter code of this repository, we have provided a shell script for downloading and extracting the dataset for this assignment. For Linux users, simply use the following command.
+- 40000 training images
 
-    bash ./get_dataset.sh
-The shell script will automatically download the dataset and store the data in a folder called `hw3_data`. Note that this command by default only works on Linux. If you are using other operating systems, you should download the dataset from [this link](https://drive.google.com/file/d/1KYKMajoyan6Dk5rZjAHqSOGRDCbHKMCj/view) and unzip the compressed file manually.
+- 13 out for 40 attributes.
 
-> ⚠️ ***IMPORTANT NOTE*** ⚠️  
-> You should keep a copy of the dataset only in your local machine. **DO NOT** upload the dataset to this remote repository. If you extract the dataset manually, be sure to put them in a folder called `hw3_data` under the root directory of your local repository so that it will be included in the default `.gitignore` file.
+### Digits datasets:
 
-### Evaluation
+USPS: 
+- 7291/2007 (training set/testing)
+- classes = 0~9
+- size = 28 * 28 * 1
+
+MNIST-M:
+- 60000/10000 (training set/testing)
+- classes = 0~9
+- size = 28 * 28 * 3
+
+SVHN:
+- 73257/26032 (training set/testing)
+- classes = 0~9
+- size = 28 * 28 * 3
+
+
+Contact me for Dataset or Google CelebA. [https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html] 
+
+Email: chengliang.yeh@gmail.com
+
+## Models
+
+
+## Evaluation
 To evaluate your UDA models in Problems 3 and 4, you can run the evaluation script provided in the starter code by using the following command.
 
     python3 hw3_eval.py $1 $2

@@ -147,7 +147,7 @@ Note that for `hw3_eval.py` to work, your predicted `.csv` files should have the
 
 ![1](./pic/PixelDA_result.png)
 
-
+- Check more detail in hw3_report.pdf
 
 ## Packages
 - This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.

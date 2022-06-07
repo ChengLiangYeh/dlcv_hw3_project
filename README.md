@@ -93,22 +93,25 @@ Email: chengliang.yeh@gmail.com
 
 ![1](./pic/GAN.png)
 
-Reference: [GAN for dummies](https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391)
+Reference:
+
+[GAN for dummies](https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391) 
 
 - DANN(Domain-Adversarial Training of Neural Networks)
 
 ![1](./pic/DANN.png)
 
-Reference: 
-[EYD與機器學習](https://zhuanlan.zhihu.com/p/51499968)
-Domain-Adversarial Training of Neural Networks(https://arxiv.org/abs/1505.07818)
+Reference:
+
+[EYD與機器學習](https://zhuanlan.zhihu.com/p/51499968), [Domain-Adversarial Training of Neural Networks](https://arxiv.org/abs/1505.07818)
 
 - PixelDA
 
 ![1](./pic/PixelDA.png)
 
-Reference: 
-[Unsupervised Pixel-Level Domain Adaptation with Generative Adversarial Networks](https://arxiv.org/abs/1505.07818](https://arxiv.org/abs/1612.05424)
+Reference:
+
+[Unsupervised Pixel-Level Domain Adaptation with Generative Adversarial Networks](https://arxiv.org/abs/1612.05424)
 
 
 

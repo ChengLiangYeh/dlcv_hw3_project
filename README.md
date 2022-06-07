@@ -80,7 +80,7 @@ SVHN:
 - size = 28 * 28 * 3
 
 
-Contact me for Dataset or Google CelebA. [https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html] 
+Contact me for Dataset or [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html]). 
 
 Email: chengliang.yeh@gmail.com
 

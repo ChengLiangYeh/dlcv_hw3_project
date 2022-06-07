@@ -130,6 +130,24 @@ Note that for `hw3_eval.py` to work, your predicted `.csv` files should have the
 | 00002.png  | 5     |
 | ...        | ...   |
 
+## Result
+- VAE reconstructed fake human face:
+
+![1](./pic/VAE_result.png)
+
+- GAN generator generates human face:
+
+![1](./pic/GAN_result.png)
+
+- DANN latent vector tSNE vis-result : blue is source domain, red is target domain.
+
+![1](./pic/DANN_result.png)
+
+- PixelDA vis-result : style transformation.
+
+![1](./pic/PixelDA_result.png)
+
+
 
 ## Packages
 - This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
@@ -163,14 +181,3 @@ The shell script file for running your improved UDA model.
 -   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/mnistm/test_pred.csv`).
 
 6.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me.
-
-### Remarks
-- If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://goo.gl/XvCaLR).
-- **DO NOT** hard code any path in your file or script, and the execution time of your testing code should not exceed an allowed maximum of **10 minutes**.
-- **Please refer to HW3 slides for details about the penalty that may incur if we fail to run your code or reproduce your results.**
-
-# Q&A
-If you have any problems related to HW3, you may
-- Use TA hours
-- Contact TAs by e-mail ([ntudlcv@gmail.com](mailto:ntudlcv@gmail.com))
-- Post your question under hw3 FAQ section in FB group
